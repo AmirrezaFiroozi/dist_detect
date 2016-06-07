@@ -15,7 +15,7 @@ while [ "1" == "1" ];do
             if [ "$1" == "-o" ];then 
                  echo "$distro" > $2
             else
-                 echo "$distro" > $2
+                 echo "$distro"
             fi
 break 
      fi 
